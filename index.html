@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio Website</title>
 </head>
 <body>
@@ -12,18 +13,18 @@
     <!-- Navigation Menu -->
     <nav>
         <div class="nav-container">
-            <div class="logo">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
                 <span>Justin</span>
             </div>
             <div class="links">
-                <div class="link"><a href="#">Home</a></div>
-                <div class="link"><a href="#">About</a></div>
-                <div class="link"><a href="#">Experience</a></div>
-                <div class="link"><a href="#">Projects</a></div>
-                <div class="link"><a href="#">Contact</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
             </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
         </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
         <div>
             <div class="dropdown">
                 <div class="links">
@@ -38,27 +39,27 @@
     </nav>
     <section>
         <div class="main-container"> 
-            <div class="image">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
                 <img src="main.jpg" alt="">
             </div>
             <div class="content">
-                <h1 data-aos="fade-left">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
                     Hi, I'm
                     <span>Justin</span>
                 </h1>
-                <h3 class="typewriter">
+                <h3 class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
                     I'm a
                     <span class="typewriter-text"></span>
                     <label for=""></label>
                 </h3>
-                <p>Computer Science undergraduate seeking software development experience across diverse fields, including AI, cloud computing, and fintech. Looking for opportunities to apply technical skills, expand industry knowledge, and design innovative projects.</p>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Computer Science undergraduate seeking software development experience across diverse fields, including AI, cloud computing, and fintech. Looking for opportunities to apply technical skills, expand industry knowledge, and design innovative projects.</p>
                 <div class="social-links">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
                 </div>
-                <div class="btn">
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
                     <button>Resume</button>
                 </div>
             </div>
@@ -68,15 +69,15 @@
     <!-- About Section Start -->
      <section class="about" id="about">
         <div class="content">
-            <div class="title"><span>About Me</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
             <div class="about-details">
-                <div class="left">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
                     <img src="about.jpg" alt="" />
                 </div>
                 <div class="right">
-                    <div class="topic">Coding is my passion</div>
-                    <p>Insert about me text here.</p>
-                    <div class="btn">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Coding is my passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Insert about me text here.</p>
+                    <div class="btn" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
                         <button>Download CV</button>
                     </div>
                 </div>
@@ -88,40 +89,40 @@
     <!-- Experience Section Start -->
      <section class="experience" id="experience">
         <div class="content">
-            <div class="title"><span>My Experience</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Experience</span></div>
             <div class="experience-details">
                 <div class="text">
-                    <div class="topic">Skills Reflect Our Knowledge</div>
-                    <p>Insert skills description here.</p>
-                    <div class="experience-info">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Skills Reflect Our Knowledge</div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Insert skills description here.</p>
+                    <div class="experience-info" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                         <div class="num">2</div>
                         <div class="exp">Years Of <br /> Experience</div>
                     </div>
                 </div>
                 <div class="boxes">
                     <div class="box">
-                        <div class="topic">Java</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Java</div>
                     </div>
                     <div class="box">
-                        <div class="topic">Python</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">Python</div>
                     </div>
                     <div class="box">
-                        <div class="topic">C++</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">C++</div>
                     </div>
                     <div class="box">
-                        <div class="topic">HTML</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">HTML</div>
                     </div>
                     <div class="box">
-                        <div class="topic">CSS</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="750">CSS</div>
                     </div>
                     <div class="box">
-                        <div class="topic">JavaScript</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="900">JavaScript</div>
                     </div>
                     <div class="box">
-                        <div class="topic">Swift</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1050">Swift</div>
                     </div>
                     <div class="box">
-                        <div class="topic">mySQL</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1200">mySQL</div>
                 </div>
             </div>
             </div>
@@ -132,9 +133,9 @@
     <!-- Projects Section Start -->
     <section class="projects" id="projects">
         <div class="content">
-            <div class="title"><span>My Projects</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Projects</span></div>
             <div class="boxes">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <div class="topic">AI Generative App</div>
                     <p>Insert description of app here.</p>
                 </div>
@@ -145,10 +146,10 @@
     <!-- Contact Section Start -->
     <section class="contact">
         <div class="content">
-            <div class="title"><span>Contact Me</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
             <div class="text">
-                <div class="topic">Any questions?</div>
-                <div class="btn">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Any questions?</div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
                     <button>Email Me</button>
                 </div>
             </div>
@@ -160,9 +161,15 @@
         <div class="text">
             <span>Created By Justin | </span>
             <span class="far fa-copyright"></span>
-            <span> 2024 All rights reserved.</span>
+            <span> 2026 All rights reserved.</span>
         </div>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
