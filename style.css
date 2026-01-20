@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
@@ -108,7 +108,7 @@ nav {
 }
 
 .nav-container .links a:hover {
-    color: aqua;    
+    color: aqua;
 }
 
 .dropdown {
@@ -146,7 +146,7 @@ section {
     display: flex;
     justify-content: center;
     padding-left: 100px;
-    align-items: center; 
+    align-items: center;
     gap: 10rem;
 }
 
@@ -211,7 +211,7 @@ section {
 
 
 .typewriter {
-    font-size: 34px; 
+    font-size: 34px;
     font-weight: 600;
     min-width: 280px;
 }
@@ -263,7 +263,7 @@ section {
 }
 
 .content h1 span {
-    color: aqua; 
+    color: aqua;
     text-shadow: 0 0 10px aqua;
 }
 
@@ -397,7 +397,7 @@ section .topic {
 
 .about-details .right p {
     text-align: justify;
-    color: white;   
+    color: white;
     font-size: 16px;
 }
 
@@ -508,7 +508,8 @@ section .button button:hover {
 
 .projects .boxes .box:hover {
     background-color: aqua;
-    color: aqua;;
+    color: aqua;
+    ;
 }
 
 .projects .boxes .box:hover .topic,
@@ -579,7 +580,8 @@ footer .text span a:hover {
 @media (max-width: 1000px) {
     .about .about-details {
         justify-content: center;
-        flex-direction: column;;
+        flex-direction: column;
+        ;
     }
 
     .about .about-details .left {
@@ -649,7 +651,7 @@ footer .text span a:hover {
 
     .experience .experience-details {
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         flex-direction: column;
     }
 
